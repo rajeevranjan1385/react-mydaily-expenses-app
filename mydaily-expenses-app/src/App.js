@@ -25,7 +25,7 @@ function App() {
   return (
     <div>
       <h2>List of expenses by Rajeev</h2>
-      <Expenses item1={expenses[0]} item2={expenses[1]} item3={expenses[2]} item4={expenses[3]} />
+      <Expenses items={expenses} />
     </div>
   )
 }
