@@ -1,4 +1,5 @@
 import React from 'react';
+import CreateExpense from './components/CreateExpense/CreateExpense';
 import Expenses from "./components/Expenses/Expenses";
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
   ];
   return (
     <div>
-      <h2>List of expenses by Rajeev</h2>
+      <CreateExpense />
       <Expenses items={expenses} />
     </div>
   )
